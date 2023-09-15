@@ -21,7 +21,7 @@ ICoder blog is a futuarestic AI included blog. Everything will be comming soon. 
 <a href="https://fb.com/cyberarpan" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="cyberarpan" height="30" width="40" /></a>
 <a href="https://instagram.com/cyber.arpan" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="cyber.arpan" height="30" width="40" /></a>
 <a href="https://medium.com/@securewitharpan" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@securewitharpan" height="30" width="40" /></a>
-<a href="https://www.youtube.com/c/@hackersanatomy8705" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="@hackersanatomy8705" height="30" width="40" /></a>
+<a href="https://www.youtube.com/@hackersanatomy8705" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="@hackersanatomy8705" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
