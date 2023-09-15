@@ -1,0 +1,39 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% block title %}Login{% endblock title %}</title>
+    <link rel="stylesheet" href="{%static 'css/login-style.css'%}">
+    
+  </head>
+  <body>
+    <div class="container">
+      {% if messages %}
+      {% for message in messages %}
+          {{ message }}
+      {% endfor %}
+  {% endif %}
+
+      <h2>Login</h2>
+      <form action="" method="post">
+        {% csrf_token %}
+        <div class="input-field">
+          <input type="text" name="username" id="" placeholder="username" required>
+      </div> 
+        {% comment %} <div class="input-field">
+            <input type="email" name="email" id="" placeholder="Email" required>
+        </div>  {% endcomment %}
+        <div class="input-field">
+            <input type="password" name="password" id="" placeholder="Password" required>
+        </div>
+
+        <div class="btn">
+            <button type="submit" class="login btn-cls">Login</button>
+            <button type="submit" class="register btn-cls">Register</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

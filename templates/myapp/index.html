@@ -1,0 +1,23 @@
+{% extends "myapp/base.html" %} 
+{% load static %}
+<link rel="stylesheet" href="{%static 'css/style.css'%}">
+{% block body %}
+
+
+<!-- Card Design start from here -->
+<div class="container mt-3">
+  <div class="card" style="width: 18rem">
+    <img src="{%static 'images/pexels-christina-morillo-1181298.jpg'%}" class="card-img-top" alt="..." />
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">
+        Some quick example text to build on the card title and make up the bulk
+        of the card's content.
+      </p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+</div>
+
+<script src="{%static '/js/index.js'%}"></script>
+{% endblock body %}

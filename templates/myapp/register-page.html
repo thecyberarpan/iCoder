@@ -1,0 +1,44 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Register{% endblock title %}</title>
+    <link rel="stylesheet" href="{%static 'css/register-style.css'%}">
+
+</head>
+<body>
+    <div class="container">
+        {% if messages %}
+            {% for message in messages %}
+                {{ message }}
+            {% endfor %}
+        {% endif %}
+
+        <h2>Register</h2>
+        <form action="" method="post">
+            {% csrf_token %}
+        <div class="input-field">
+            <input type="text" name="username" id="" placeholder="username" required>
+        </div>
+        <div class="input-field">
+            <input type="Email" name="email" id="" placeholder="Email" required>
+        </div>
+        <div class="input-field">
+            <input type="password" name="pass" id="" placeholder="password" required>
+        </div>
+        <div class="input-field">
+            <input type="password" name="cpass" id="" placeholder="Confirm Password" required>
+        </div>
+        <div class="btn">
+            <button type="submit" class="login btn-cls">Register</button>
+
+            <div class="link">
+                <p>Already have an account? <a href="{% url "Login" %}">Login</a></p>
+            </div>
+        </div>
+    </form>
+    </div>
+</body>
+</html>
